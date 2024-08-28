@@ -1,0 +1,98 @@
+/* General Styling */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+}
+
+/* Content Wrapper */
+.content-wrapper {
+    background-color: rgba(255, 255, 255, 0.9);
+    padding: 20px;
+    margin: 20px;
+    border-radius: 8px;
+}
+
+/* Header Styling */
+header {
+    text-align: center;
+    padding: 50px 0;
+    background-image: url('sharon-mccutcheon-unsplash.jpg');
+    color: #000000;
+    font-style: italic;
+}
+
+header h1 {
+    font-size: 2.5em;
+    margin-bottom: 0.5em;
+}
+
+header h2 {
+    font-size: 1.5em;
+    margin-bottom: 1em;
+}
+
+/* Section and Project Styling */
+section {
+    margin-bottom: 30px;
+    font-size: medium;
+}
+
+section img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+
+section h3 {
+    margin-top: 0;
+}
+
+a.btn {
+    display: inline-block;
+    background-color: #8fbc8f;
+    color: #000000;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+
+a.btn:hover {
+    background-color:  #465c46;
+    color: #ffffff;
+}
+
+/* Footer Styling */
+footer {
+    background-color: #e3e8e7;
+    color: #000000;
+    text-align: center;
+    padding: 20px;
+    margin-top: 20px;
+}
+
+footer ul {
+    list-style: none;
+    padding: 0;
+    color: #000000;
+}
+
+footer ul li {
+    display: inline;
+    margin: 0 10px;
+    color: #000000;
+}
+
+footer ul li a {
+    color: #000000;
+    text-decoration: none;
+}
+
+footer ul li a:hover {
+    text-decoration: underline;
+
+
+}
